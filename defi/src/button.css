@@ -1,0 +1,36 @@
+.header{
+    display: flex;
+    margin-top:44px;
+}
+
+
+.signup, .nav {                                             
+    min-width: 150px; 
+    padding:10px;                       
+    height: 40px;                        
+    border-radius: 8px;                                        
+    text-decoration: none;                                  
+  }
+
+  .signup{
+    background-color: rgb(255, 255, 255); 
+    color: rgb(0, 0, 0); 
+    margin-left: 28vw;
+  }
+  
+  .navLinks{
+    display:flex;
+    margin-left: 31vw;
+    gap:30px;
+ } 
+
+  .nav{
+    background-color:rgb(26, 26, 55);
+    color:white;
+  }
+
+  
+  .signup:hover {
+    background-color: rgb(230, 230, 230);  
+  }
+  

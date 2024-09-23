@@ -1,12 +1,12 @@
-import React from 'react'
+import React from 'react';
+import './button.css';
 
-function Button() {
+function Button({ className, link, name }) {
   return (
     <div>
-      <a href="signup">Sign Up</a> 
-      {/* need this href to be sent by the App.jsx so it can be reused */}
+      <a className={className} href={`/${link}`}>{name}</a>
     </div>
-  )
+  );
 }
 
-export default Button
+export default Button;

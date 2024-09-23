@@ -1,13 +1,55 @@
-
-.signup{
-    width:140px;
-    height:40px;
-    background-color: white;
-    padding:10px;
+.company h1{
+    margin-top:2px;
+    color:white;
+    font-size:25px;
+    margin-left:50px;                    
 }
 
-.signup a{
-    color:black;
-    font-size: 22px;
-    text-decoration: none;
+.landingcntr{
+    background-color:rgb(26, 26, 31);
+    height:100vh;
+    width: 86vw;
+    border-radius: 30px;
+    margin-left:7vw;
+    margin-top:5vh;
 }
+
+.landingH{
+    color:white;
+    font-size:32px;
+    margin-top:-70vh;
+    margin-left:22vw;
+}
+
+.landingBrief{
+    color:rgb(125, 125, 125);
+    font-size:8px;
+    margin-left:38vw;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.dCntr{
+    background-color:rgb(44, 44, 53);
+    height:78vh;
+    width: 60vw;
+    border-radius: 30px;
+    margin-left:20vw;
+    margin-top:8vh;
+    border: 1px solid white;
+    box-shadow: rgba(199, 199, 199, 0.25) 0px 54px 55px, 
+            rgba(255, 255, 255, 0.12) 0px -12px 30px, 
+            rgba(255, 255, 255, 0.12) 0px 4px 6px, 
+            rgba(160, 160, 160, 0.17) 0px 12px 13px, 
+            rgba(171, 170, 170, 0.09) 0px -3px 5px;
+
+}
+
+.secondH{
+    font-size: 38px;
+    color:white;
+    margin-left:8vw;
+    margin-top:70vh;
+    width: 550px;
+}
+
+
