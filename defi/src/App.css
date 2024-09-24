@@ -108,3 +108,52 @@
     margin-top: 17vh;
     margin-left:2vw;
 }
+
+.Header3{
+    color: white;
+    font-size: 32px;
+    margin-left:10vw;
+    width: 40vw;
+    margin-top: 15vh;
+}
+
+.cntr3{
+    display: flex;
+    gap:5vw;
+    margin-left: 10vw;
+}
+
+.fCntr3{
+    border:1px solid white;
+    width:50vw;
+    height:55vh;
+    border-radius: 20px;
+    background-color:rgb(44, 44, 53);
+}
+
+.fCntr4{
+    border:1px solid white;
+    width:23vw;
+    height:55vh;
+    border-radius: 20px;
+    background-color:rgb(44, 44, 53);
+}
+
+.cntr4{
+    margin-top: 4vh;
+    margin-left:10vw;
+}
+
+
+
+.fCntr5 {
+    width: 78vw;
+    height: 55vh;
+    border: 1px solid white;
+    border-radius: 20px;
+   
+}
+
+.prompt{
+    color: #ffffff;
+}

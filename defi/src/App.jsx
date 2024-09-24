@@ -50,6 +50,18 @@ function App() {
       <Paragraph className="f2Brief" data="growth"></Paragraph>
     </div>
 
+    <Header className="Header3" title={<span>Ensuring seamless and secure <span style={{ color: ' #f59cf3' }}>transactions</span></span>}></Header>
+
+    <div className="cntr3">
+      <Container className="fCntr3"></Container>
+      <Container className="fCntr4"></Container>
+    </div>
+
+    <div className="cntr4">
+      <Container className="fCntr5"></Container>
+      <Header className="prompt" title="Join the waitlist"></Header>
+    </div>
+
     </>
   );
 }
