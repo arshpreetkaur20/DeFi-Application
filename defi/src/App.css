@@ -156,4 +156,40 @@
 
 .prompt{
     color: #ffffff;
+    margin-top: -25vw;
+    margin-left: 5vw;
+    font-size: 42px;
+}
+
+.arrow{
+    width:10vw;
+    height:7vh;
+    border-radius: 20px;
+    background-color: white;
+    margin-left:5vw;
+    margin-top: -5vh;
+}
+
+.headFooter{
+    color:#ffffff;
+    font-size: 82px;
+    margin-top: 50vh;
+    margin-left: 10vw;
+}
+
+.copyright{
+    font-size:8px;
+    color: rgb(156, 156, 156);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    opacity: 0.3;
+    margin-left:12vw;
+    margin-top: 2vh;
+    height: 100px;
+}
+
+.hr{
+    width:74vw;
+    margin-top: -15vh;
+    margin-left: 11vw;
+    opacity: 0.2;
 }

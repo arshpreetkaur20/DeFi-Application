@@ -60,8 +60,12 @@ function App() {
     <div className="cntr4">
       <Container className="fCntr5"></Container>
       <Header className="prompt" title="Join the waitlist"></Header>
+      <Container className="arrow"></Container> 
     </div>
 
+    <Header className="headFooter" title="Yield:Stake now"></Header>
+    <hr className="hr"/>
+    <Header className="copyright" title="Made with love in Bharat"></Header>
     </>
   );
 }
