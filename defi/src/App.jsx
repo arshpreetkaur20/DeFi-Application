@@ -36,8 +36,15 @@ function App() {
       </>
 
       <div className="dashboardcntr">
-        <Container className="dCntr"></Container>
+        <Container className="dCntr">
+          <h1 className="headerT">Discover the world of DeFi</h1>
+          <img className="coinJar" src="src/assets/coinJar.png" alt="coinJar" />
+        </Container>
       </div>
+
+      <Container className="coingraphic">
+        <img src="src/assets/coin.png" alt="coinJar" />
+      </Container>
 
       <>
         <Header
@@ -53,12 +60,22 @@ function App() {
       <Header className="features" title="Key Features"></Header>
 
       <div className="featureCntr1">
-        <Container className="fCntr1"></Container>
-        <Container className="fCntr2"></Container>
+        <Container className="fCntr1">
+          <img
+            className="barchart"
+            src="src/assets/barchart.png"
+            alt="barchart graphics"
+          />
+        </Container>
+        <Container className="fCntr2">
+          <img className="cash" src="src/assets/cash.png" alt="cash graphics" />
+        </Container>
       </div>
 
       <div className="featureCntr2">
-        <Container className="fCntr1"></Container>
+        <Container className="fCntr1">
+          <img src="src/assets/coin.png" alt="coinJar" />
+        </Container>
         <Header className="fCntr2Heading" title="2X"></Header>
         <Paragraph className="f2Brief" data="growth"></Paragraph>
       </div>
@@ -74,12 +91,26 @@ function App() {
       ></Header>
 
       <div className="cntr3">
-        <Container className="fCntr3"></Container>
-        <Container className="fCntr4"></Container>
+        <Container className="fCntr3">
+          <img
+            className="potli"
+            src="src/assets/potli.png"
+            alt="potli graphics"
+          />
+        </Container>
+        <Container className="fCntr4">
+          <img src="src/assets/grow.png" alt="coinJar" />
+        </Container>
       </div>
 
       <div className="cntr4">
-        <Container className="fCntr5"></Container>
+        <Container className="fCntr5">
+          <img
+            className="contract"
+            src="src/assets/contract.png"
+            alt="contract graphics"
+          />
+        </Container>
         <Header className="prompt" title="Join the waitlist"></Header>
         <Button className="arrow" link="signup" name="Join"></Button>
       </div>

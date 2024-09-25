@@ -45,14 +45,46 @@
             rgba(255, 255, 255, 0.12) 0px 4px 6px, 
             rgba(160, 160, 160, 0.17) 0px 12px 13px, 
             rgba(171, 170, 170, 0.09) 0px -3px 5px;
-
+    
+    display: flex;
 }
+
+.headerT{
+    font-family: "Playwrite PE", cursive;
+    color: white;
+    font-size: 42px;
+    height: 200px;
+    width: 80vw;
+    margin-top: 25vh;
+    margin-left:4vw;
+}
+
+.coinJar{
+    margin-left: 10vw;
+    margin-top: 30vh;
+    width: 440px;
+    height: 400px;
+}
+
+.cash{
+    margin-top: 6vh;
+    width: 200px;
+    height: 200px;
+}
+
+.coingraphic{
+    height: 400px;
+    width: 380px;
+    margin-left: 60vw;
+    margin-top: 40vh;
+}
+
 
 .secondH{
     font-size: 38px;
     color:white;
     margin-left:8vw;
-    margin-top:70vh;
+    margin-top:20vh;
     width: 550px;
 }
 
@@ -98,6 +130,11 @@
     display: flex;
 }
 
+.barchart{
+    width: 330px;
+    height:300px
+}
+
 .fCntr2Heading{
     color: rgb(249, 143, 249);
     font-size: 72px;
@@ -127,6 +164,10 @@
     margin-left: 10vw;
 }
 
+.potli{
+    margin-left: 23vw;
+}
+
 .fCntr3{
     border:1px solid rgba(0, 224, 112, 0.718);
     width:50vw;
@@ -150,6 +191,10 @@
     justify-content: center;
     margin-top: 4vh;
     margin-left:10vw; 
+  }
+
+  .contract{
+    margin-left:47vw;
   }
 
 
