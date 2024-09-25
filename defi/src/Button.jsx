@@ -3,8 +3,8 @@ import './button.css';
 
 function Button({ className, link, name }) {
   return (
-    <div>
-      <a className={className} href={`/${link}`}>{name}</a>
+    <div className={className}>
+      <a  href={`/${link}`}>{name}</a>
     </div>
   );
 }

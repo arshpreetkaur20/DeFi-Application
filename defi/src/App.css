@@ -1,3 +1,7 @@
+*{
+    font-family:"Exo 2","sans-serif";
+}
+
 .company h1{
     margin-top:2px;
     color:white;
@@ -24,7 +28,7 @@
 .landingBrief{
     color:rgb(125, 125, 125);
     font-size:8px;
-    margin-left:38vw;
+    margin-left:44vw;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
@@ -55,7 +59,7 @@
 .secondBrief{
     color:white;
     font-size:25px;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-family:"Exo 2","sans-serif";
     width:410px;
     height:140px;
     text-align: justify;
@@ -124,34 +128,36 @@
 }
 
 .fCntr3{
-    border:1px solid white;
+    border:1px solid rgba(0, 224, 112, 0.718);
     width:50vw;
     height:55vh;
     border-radius: 20px;
-    background-color:rgb(44, 44, 53);
+    background-color:rgba(0, 224, 112, 0.274);
 }
 
 .fCntr4{
-    border:1px solid white;
+    border:1px solid rgb(173, 71, 233);
     width:23vw;
     height:55vh;
     border-radius: 20px;
-    background-color:rgb(44, 44, 53);
+    background-color:rgba(130, 44, 180, 0.615);
 }
 
-.cntr4{
+
+.cntr4 {
+    width: fit-content;
+    height: fit-content; 
+    justify-content: center;
     margin-top: 4vh;
-    margin-left:10vw;
-}
-
+    margin-left:10vw; 
+  }
 
 
 .fCntr5 {
     width: 78vw;
     height: 55vh;
     border: 1px solid white;
-    border-radius: 20px;
-   
+    border-radius: 20px; 
 }
 
 .prompt{
@@ -159,16 +165,32 @@
     margin-top: -25vw;
     margin-left: 5vw;
     font-size: 42px;
+    font-family:"Exo 2","sans-serif";
 }
-
+  
 .arrow{
-    width:10vw;
-    height:7vh;
-    border-radius: 20px;
+    width:5vw;
+    height:3vh;
+    padding:1vw;                                               
+    border-radius: 8px;                                        
+    text-decoration: none;   
     background-color: white;
-    margin-left:5vw;
-    margin-top: -5vh;
-}
+    color: rgb(0, 0, 0);
+    margin-top: -6vh; 
+    margin-left: 6vw;
+  }
+
+  .arrow a{
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+    margin-left:20px;
+  }
+
+  .arrow :hover{
+   text-decoration: underline; 
+   font-size: 18px;  
+  }
 
 .headFooter{
     color:#ffffff;
@@ -193,3 +215,107 @@
     margin-left: 11vw;
     opacity: 0.2;
 }
+
+.connect{
+    margin-top:40vh;
+    margin-left: 10vw;
+}
+
+.connectDiv{
+    display: flex;
+    gap:1vw;
+    margin-left: -5vw;
+}
+
+.connectTitle{
+    color:rgb(126, 216, 0);
+    font-size: 32px;
+    margin-left: -5vw;
+    font-family:"Exo 2","sans-serif";
+
+}
+
+.guideCntr, .productCntr, .aboutCntr{
+    border-radius: 10px;
+}
+
+.guideCntr{
+    width: 27vw;
+    height:35vh;
+    background-color: rgba(47, 255, 113, 0.236);
+    border:1px solid rgb(4, 255, 0);
+}
+
+.productCntr{
+    width:27vw;
+    height:35vh;
+    background-color: rgba(208, 255, 0, 0.236);
+    border:1px solid rgb(243, 255, 5);
+}
+
+.aboutCntr{
+    width: 30vw;
+    height:35vh;
+    background-color: rgba(250, 146, 255, 0.236);
+    border:1px solid rgb(217, 0, 255);
+}
+
+.guideCntr .nav, .productCntr .nav , .aboutCntr .nav{
+    background-color: none;
+    color:white;
+    font-size: 22px;
+}
+
+.exo-2-connect {
+    font-family: "Exo 2", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 200;
+    font-style: normal;
+  }
+
+.guideCntr a{
+    text-decoration: none;
+    color: aquamarine;
+    font-size: 32px;
+    display: inline-block;
+    margin-left: 2vw;
+    margin-top: 27vh;
+    font-family:"Exo 2","sans-serif";
+}
+
+.productCntr a{
+    text-decoration: none;
+    color: rgb(234, 255, 0);
+    font-size: 32px;
+    display: inline-block;
+    margin-left: 2vw;
+    margin-top: 27vh;
+    font-family:"Exo 2","sans-serif";
+}
+
+.aboutCntr a{
+    text-decoration: none;
+    color: rgb(255, 130, 234);
+    font-size: 32px;
+    display: inline-block;
+    margin-left: 2vw;
+    margin-top: 27vh;
+    font-family:"Exo 2","sans-serif";
+}
+
+.guideCntr a:hover{
+    text-decoration: underline;
+    font-size: 28px;
+}
+
+.productCntr a:hover{
+    text-decoration: underline;
+    font-size: 28px;
+}
+
+.aboutCntr a:hover{
+    text-decoration: underline;
+    font-size: 28px;
+}
+
+
