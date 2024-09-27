@@ -3,23 +3,12 @@ import Button from "./Button";
 import Container from "./Container";
 import Header from "./Header";
 import Paragraph from "./Paragraph";
+
 import "./App.css";
 
 function App() {
   return (
     <>
-      <div className="header">
-        <div className="company">
-          <h1>yield</h1>
-        </div>
-        <div className="navLinks">
-          <Button className="nav" link="about" name="About" />
-          <Button className="nav" link="features" name="Features" />
-          <Button className="nav" link="products" name="Products" />
-          <Button className="nav" link="guide" name="Guide" />
-        </div>
-        <Button className="signup" link="signup" name="Sign Up" />
-      </div>
 
       {/* big container */}
       <>
@@ -122,17 +111,13 @@ function App() {
             <a href="guide">Get started</a>
           </Container>
           <Container className="productCntr">
-            <a href="product">Product catalogue</a>
+            <a href="products">Product catalogue</a>
           </Container>
           <Container className="aboutCntr">
             <a href="about">About us</a>
           </Container>
         </div>
       </div>
-
-      <Header className="headFooter" title="Yield:Stake now"></Header>
-      <hr className="hr" />
-      <Header className="copyright" title="Made with love in Bharat"></Header>
     </>
   );
 }
