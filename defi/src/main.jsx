@@ -6,6 +6,7 @@ import About from './About.jsx'
 import Product from './Product.jsx'
 import Features from './Features.jsx'
 import Guide from './Guide.jsx'
+import NotFound from './NotFound.jsx'
 
 import './index.css'
 
@@ -41,6 +42,10 @@ const router = createBrowserRouter([
         path: "guide",
         element: <Guide/>
       },
+      {
+        path:"*",
+        element: <NotFound/>
+      }
     ]
   }
 ]);

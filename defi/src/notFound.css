@@ -1,0 +1,19 @@
+.errorH {
+    color:white;
+    font-size: 42px;
+}
+
+.errorP{
+    color:white;
+    font-size: 20px;
+}
+
+.errorA{
+    font-size: 18px;
+    color: rgb(135, 135, 135);
+}
+
+.error{
+    margin-left: 35vw;
+    margin-top: 20vh;
+}
