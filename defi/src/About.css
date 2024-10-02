@@ -1,0 +1,61 @@
+.info h1{
+    color:white;
+    margin-left: 38vw;
+}
+
+
+.detailContainer{
+    width:60vw;
+    margin-top: -14vh ;
+}
+
+.header h1, .detail p, .know{
+color: white;
+}
+
+.header{
+    font-size: 28px;
+    margin-top: 2vh;
+    margin-left: 3vh;
+
+}
+
+.detail{
+    font-size: 19px;
+    justify-content:left;
+    margin-top: -3vh;
+    margin-left: 3vw;
+    width:45vw;
+    justify-content: center;
+}
+
+.know{
+    display: flex;
+    margin-top: 40vh;
+    margin-left: 15vw;
+    box-shadow: rgba(199, 199, 199, 0.25) 0px 54px 55px, 
+    rgba(255, 255, 255, 0.12) 0px -12px 30px, 
+    rgba(255, 255, 255, 0.12) 0px 4px 6px, 
+    rgba(160, 160, 160, 0.17) 0px 12px 13px, 
+    rgba(171, 170, 170, 0.09) 0px -3px 5px;
+    width:50vw;
+    height: 40vh;
+    padding: 15px;
+
+}
+
+.know h1{
+    font-size: 22px;
+}
+
+.know p{
+    font-size:18px;
+    width: 30vw;
+}
+
+.know img{
+    width:40vw;
+    height:70vh;
+    overflow:hidden ;
+    
+}
