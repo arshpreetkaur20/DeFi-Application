@@ -1,12 +1,14 @@
 .info h1{
     color:white;
-    margin-left: 38vw;
+    margin-left: 35vw;
+    margin-top: 10vh;
 }
 
 
 .detailContainer{
+    margin-top:22vh;
+    margin-left: 10vw;
     width:60vw;
-    margin-top: -14vh ;
 }
 
 .header h1, .detail p, .know{
@@ -15,7 +17,6 @@ color: white;
 
 .header{
     font-size: 28px;
-    margin-top: 2vh;
     margin-left: 3vh;
 
 }
@@ -23,8 +24,8 @@ color: white;
 .detail{
     font-size: 19px;
     justify-content:left;
-    margin-top: -3vh;
-    margin-left: 3vw;
+    margin-top: 15vh;
+    margin-left: 30vw;
     width:45vw;
     justify-content: center;
 }

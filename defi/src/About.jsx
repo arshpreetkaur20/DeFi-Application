@@ -6,7 +6,7 @@ function About() {
   return (
     <>
       <div className="info">
-        <h1>The destination for crypto</h1>
+        <h1>The destination for yield farming</h1>
         <img
           src="https://gatehub.net/blog/content/images/2020/05/AdobeStock_334632123.jpeg"
           alt="crypto"
