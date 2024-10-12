@@ -38,7 +38,7 @@ function About() {
           <p>
             Yield farming is a 100% student lead initiative. We built this in
             2024. A female all team based out of UPES,a uni in
-            Dehradun,India.The team has a diverse set of skills coming from
+            Dehradun,India.  The team has a diverse set of skills coming from
             varied background all with the motivation to push forward open
             source and Web3.0. The team is open to constructive criticism and
             feedback on the product.

@@ -86,6 +86,9 @@ function App() {
             src="src/assets/potli.png"
             alt="potli graphics"
           />
+            {/* content add */}
+          <Paragraph className="abc" data="Lorem ipsum dolor sit amet consectetur, adipisicing elit. Harum ex aperiam numquam cumque ea natus sunt amet accusantium quis qui error cupiditate, doloribus repudiandae quasi. Inventore cumque unde a voluptatem."></Paragraph>
+
         </Container>
         <Container className="fCntr4">
           <img src="src/assets/grow.png" alt="coinJar" />
